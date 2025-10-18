@@ -27,8 +27,11 @@ def encode_base62(num: int) -> str:
  
 ## HOW IT WORKS : 
 1.Type url : [https://www.youtube.com/watch?v=P2wLb1njn4I&list=RDMMP2wLb1njn4I&start_radio=1&pp=0gcJCacEOCosWNin ] in our template and click submit
+
 2.The URL is saved in DB afterwhich its automatically assigned an auto-generated numeric ID i.e say 125.
+
 3.The numeric ID then gets encoded into a Base62 short code i.e. abc123
+
 4.The short code then gets appended to your custom domain to form  i.e. https://yourapp.com/abc123
 
 ## 🧩 FUTURE ENHANCEMENTS
