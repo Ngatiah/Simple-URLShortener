@@ -24,9 +24,6 @@ def encode_base62(num: int) -> str:
         base62 = ALPHABET[rem] + base62
     return base62
 ```
-
-So for each long url typed in our template,its first saved in our database after which an auto genearate ID is created for it
-Once saved and id generated ,the id is encoded
  
 ## HOW IT WORKS : 
 1.Type url : [https://www.youtube.com/watch?v=P2wLb1njn4I&list=RDMMP2wLb1njn4I&start_radio=1&pp=0gcJCacEOCosWNin ] in our template and click submit
