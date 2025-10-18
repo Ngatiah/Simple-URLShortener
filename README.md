@@ -1,5 +1,5 @@
 # Simple URLShortener
-A lightweight Django-based URL Shortener that encodes long URLs into compact, shareable links using Base62 encoding.
+A Simple URLShortener built using Django that encodes long URLs into compact, shareable links using Base62 encoding.
 
 ## Why Base62?
 Base62 encoder allows us to use the combination of characters and numbers which contains A-Z, a-z, 0–9 total( 26 + 26 + 10 = 62).
