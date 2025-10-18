@@ -34,7 +34,7 @@ def encode_base62(num: int) -> str:
 
 4.The short code then gets appended to your custom domain to form  i.e. https://yourapp.com/abc123
 
-## 🧩 FUTURE ENHANCEMENTS
+## FUTURE ENHANCEMENTS
    - Add analytics dashboard (clicks by day, referrers of shortened urls)
    - Add QR code generation for short URLs
    - Enhance encoding logic ; switch to more secure, collision free IDs like hashids
